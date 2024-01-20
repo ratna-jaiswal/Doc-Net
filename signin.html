@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+    <form action="Home.html">
+        <div class="d1">
+            <h2> <u>Terms and Condition</u></h2>
+            <list>
+                <ol>
+                    <li><b>Eligibility: </b>Users must meet certain age or other eligibility criteria to create an
+                        account.
+                    </li>
+                    <li><b>Account Security: </b> Users are responsible for maintaining the security of their account
+                        credentials.</li>
+                    <li><b>User Content: </b>Specify that users are responsible for the content they post and prohibit
+                        illegal or offensive content.</li>
+                    <li><b>Intellectual Property: </b>State that all website/app content is protected by copyright and
+                        trademark laws.</li>
+                    <li><b>Termination: </b>Clarify the circumstances under which the service can terminate or suspend
+                        user
+                        accounts.</li>
+                </ol>
+            </list>
+            <p> <input type="checkbox" name="checkbox" id="checkbox" value="agree" required>I accept all the terms and
+                conditions.</p>
+            <br>
+            <button type="submit">Sign Up</button>
+            <button type="reset">Refresh</button>
+            <br>
+            <p> Already have an account? <a href="login.html">Log In</a></p>
+        </div>
+        <div class="d2">
+            <h1> Sign Up</h1>
+            <table>
+                <tr>
+                    <td><label for="name"> Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter Name" required></td>
+                    <td><label for="age"> Age:</label></td>
+                    <td><input type="number" id="age" name="age" placeholder="Enter Age" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender: </label></td>
+                    <td><input type="radio" name="gender" id="Male" value="Male" required>
+                        <label for="Male">Male</label>
+                        <input type="radio" name="gender" id="Female" value="Female" required>
+                        <label for="Female">Female </label>
+                        <input type="radio" name="gender" id="Other" value="Other" required>
+                        <label for="Other">Other </label>
+                    </td>
+                    <td><label for="email"> Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter Email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="aadhar"> Aadhar:</label></td>
+                    <td><input type="aadhar" id="aadhar" name="aadhar" placeholder="Enter Aadhar Number" required></td>
+                    <td><label for="pwd"> Password:</label></td>
+                    <td><input type="password" id="pwd" name="pdw" placeholder="Enter Password" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><label for="vpwd"> Verify Password:</label></td>
+                    <td><input type="password" id="vpwd" name="vpwd" placeholder="Re enter Password" required></td>
+                </tr>
+            </table>
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-image: url(Screenshot\ \(172\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+button{
+    color: white;
+    background-color: black;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: cursive;
+    text-align: center;
+    margin: 1%;
+}
+div{
+    margin-top: 25%;
+    margin-bottom: auto;
+    margin-left: 42.5%;
+    
+}
